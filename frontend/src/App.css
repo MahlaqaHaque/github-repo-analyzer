@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34;
+  padding: 24px 0;  
+  min-height: unset;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;     
+  color: white;
+  border-radius: 0 0 16px 16px;  */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: 'Inter', 'Roboto', 'Poppins', 'Segoe UI', Arial, sans-serif;
+  background: #f6f8fa; /* Optional: modern light background */
+  margin: 0;
+  padding: 0;
+}
+
+.MuiPaper-root, .MuiCard-root {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
