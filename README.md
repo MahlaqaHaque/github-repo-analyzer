@@ -17,7 +17,7 @@ A modern web application to analyze public GitHub repositories, visualize contri
 
 ## 📁 Project Structure
 
-/github-repo-analyzer/ ├── frontend/ # React app (Create React App) │ └── Dependencies: React 19, MUI 7, Recharts, Axios └── backend/ # Flask API ├── app.py ├── Dockerfile ├── .dockerignore └── Dependencies: Flask, requests, python-dotenv, flask-cors
+/github-repo-analyzer/ ├── ui/ # React app (Create React App) │ └── Dependencies: React 19, MUI 7, Recharts, Axios └── backend/ # Flask API ├── app.py ├── Dockerfile ├── .dockerignore └── Dependencies: Flask, requests, python-dotenv, flask-cors
 
 yaml
 Copy
@@ -63,14 +63,14 @@ Edit
 python app.py
 The backend runs on http://localhost:5001/ by default.
 
-💻 3. Frontend Setup
+💻 3. UI Setup
 bash
 Copy
 Edit
-cd ../frontend
+cd ../ui
 npm install
 npm start
-The frontend runs on http://localhost:3000/ by default.
+The UI runs on http://localhost:3000/ by default.
 
 🧑‍💻 Usage
 Enter a public GitHub repository URL (e.g., https://github.com/facebook/react) in the search bar.
